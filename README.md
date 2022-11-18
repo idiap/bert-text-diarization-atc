@@ -7,6 +7,9 @@
     <a href="https://github.com/idiap/bert-text-diarization-atc">
         <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Open%20source-green">
     </a>
+    <a href="https://github.com/psf/black">
+        <img alt="Black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
+    </a>    
 </p>
 
 Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications](https://arxiv.org/abs/2110.05781). To appear at [IEEE Spoken Language Technology Workshop (SLT 2022)](https://slt2022.org/)
@@ -27,7 +30,6 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
     rate (JER) in public and private ATC databases. We also achieved relative
     improvements of 32% and 7.7% in JERs and SD error rate (DER), respectively,
     compared to VBx, a well-known SD system.
-
 </details>
 
 <p align="center">
@@ -37,7 +39,7 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
 </figure> 
 </p>
 
-Repository written by [Juan Pablo Zuluaga](https://juanpzuluaga.github.io/)
+**Repository written by**: [Juan Pablo Zuluaga](https://juanpzuluaga.github.io/).
 
 ---
 ## Table of Contents
