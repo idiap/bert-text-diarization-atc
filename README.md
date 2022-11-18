@@ -1,7 +1,7 @@
 # BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications 
 
 <p align="center">
-    <a href="https://github.com/JuanPZuluaga/bert-text-diarization-atc/blob/master/LICENSE">
+    <a href="https://github.com/idiap/bert-text-diarization-atc/blob/master/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/badge/License-MIT-green.svg">
     </a>
     <a href="https://github.com/idiap/bert-text-diarization-atc">
