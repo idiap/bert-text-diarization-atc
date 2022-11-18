@@ -4,6 +4,9 @@
     <a href="https://github.com/JuanPZuluaga/bert-text-diarization-atc/blob/master/LICENSE">
         <img alt="GitHub" src="https://img.shields.io/badge/License-MIT-green.svg">
     </a>
+    <a href="https://github.com/idiap/bert-text-diarization-atc">
+        <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Open%20source-green">
+    </a>
 </p>
 
 Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications](https://arxiv.org/abs/2110.05781). To appear at [IEEE Spoken Language Technology Workshop (SLT 2022)](https://slt2022.org/)
@@ -34,7 +37,9 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
 </figure> 
 </p>
 
+Repository written by [Juan Pablo Zuluaga](https://juanpzuluaga.github.io/)
 
+---
 ## Table of Contents
 - [Preparing Environment](#preparing-environment)
 - [Usage](#usage)
@@ -46,7 +51,7 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
 - [Related work](#related-work)
 - [Cite us](#how-to-cite-us)
 
----
+
 # Preparing Environment
 
 The first step is to create your environment with the required packages for data preparation, formatting, and to carry out the experiments. You can run the following commands to create the conda environment (assuming CUDA - 11.7):
