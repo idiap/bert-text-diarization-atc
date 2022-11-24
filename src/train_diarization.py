@@ -33,7 +33,6 @@ from transformers import (
     AutoModelForTokenClassification,
     AutoTokenizer,
     DataCollatorForTokenClassification,
-    DataCollatorWithPadding,
     Trainer,
     TrainingArguments,
     set_seed,
@@ -332,7 +331,6 @@ def main(args):
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         compute_metrics=compute_metrics_training,
-        # data_collator=DataCollatorWithPadding(tokenizer),
         data_collator=DataCollatorForTokenClassification(tokenizer),
     )
 

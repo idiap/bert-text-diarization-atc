@@ -254,7 +254,7 @@ Here is a list of papers that are somehow related to AI/ML targeted to Air traff
 
 - Fine-tuning a pretrained [Wav2vec 2.0](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec) model for automatic speech recognition: 
     - paper: [How Does Pre-trained Wav2Vec 2.0 Perform on Domain Shifted ASR? An Extensive Benchmark on Air Traffic Control Communications](https://arxiv.org/abs/2203.16822)
-    - code: https://github.com/JuanPZuluaga/w2v2-air-traffic
+    - code: https://github.com/idiap/w2v2-air-traffic
 
 - How to use contextual data (biasing) in ATC automatic speech recognition:
     - Paper: [A two-step approach to leverage contextual data: speech recognition in air-traffic communications](https://arxiv.org/abs/2202.03725)
