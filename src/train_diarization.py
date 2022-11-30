@@ -343,8 +343,8 @@ def main(args):
     trainer.log_metrics("train", metrics)
     trainer.save_metrics("train", metrics)
     trainer.save_state()
-    trainer.save_model(output_dir=f"{output_directory}/final_checkpoint")
-    tokenizer.save_pretrained(f"{output_directory}/final_checkpoint")
+    trainer.save_model(output_dir=f"{output_directory}/")
+    tokenizer.save_pretrained(f"{output_directory}/")
 
     # Performing a last evaluation of the dev dataset
     logger.info("*** Evaluate ***")
@@ -358,6 +358,12 @@ def main(args):
         label_list=id2tag,
         log_folder=f"{output_directory}/classification_report",
     )
+
+    kwargs = {
+        "finetuned_from": model_name,
+        "tasks": "token-classification",
+    }
+    trainer.create_model_card(**kwargs)
 
 
 if __name__ == "__main__":

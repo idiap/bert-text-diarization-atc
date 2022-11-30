@@ -7,10 +7,14 @@
     <a href="https://github.com/idiap/bert-text-diarization-atc">
         <img alt="GitHub" src="https://img.shields.io/badge/GitHub-Open%20source-green">
     </a>
+    <a href="https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc">
+        <img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow">
+    </a>
     <a href="https://github.com/psf/black">
         <img alt="Black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
     </a>    
 </p>
+
 
 Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change Detection for Air Traffic Control Communications](https://arxiv.org/abs/2110.05781). To appear at [IEEE Spoken Language Technology Workshop (SLT 2022)](https://slt2022.org/)
 
@@ -38,6 +42,14 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
   <figcaption> Pipeline for BERT-based text diarization.</figcaption>
 </figure> 
 </p>
+
+
+Token classification fine-tuned on UWB-ATCC dataset:
+    1) Fine-tuned [BERT-base-uncased](https://huggingface.co/bert-base-uncased) on **UWB-ATCC** data: https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc | <a href="https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"> </a>
+
+
+**UWB-ATCC corpus prepared** in [datasets library](https://github.com/huggingface/datasets) format, on HuggingFace hub: https://huggingface.co/datasets/Jzuluaga/uwb_atcc | <a href="https://huggingface.co/datasets/Jzuluaga/uwb_atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"> </a>
+
 
 **Repository written by**: [Juan Pablo Zuluaga](https://juanpzuluaga.github.io/).
 
@@ -290,4 +302,15 @@ or use the bibtex item:
   journal={IEEE Spoken Language Technology Workshop (SLT), Doha, Qatar},
   year={2022}
   }
+```
+
+and,
+
+```
+@article{zuluaga2022atco2,
+  title={ATCO2 corpus: A Large-Scale Dataset for Research on Automatic Speech Recognition and Natural Language Understanding of Air Traffic Control Communications},
+  author={Zuluaga-Gomez, Juan and Vesel{\`y}, Karel and Sz{\"o}ke, Igor and Motlicek, Petr and others},
+  journal={arXiv preprint arXiv:2211.04054},
+  year={2022}
+}
 ```
