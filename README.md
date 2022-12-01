@@ -45,10 +45,10 @@ Code for the paper [BERTraffic: BERT-based Joint Speaker Role and Speaker Change
 
 
 Token classification fine-tuned on UWB-ATCC dataset:
-    1) Fine-tuned [BERT-base-uncased](https://huggingface.co/bert-base-uncased) on **UWB-ATCC** data: https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc | <a href="https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"> </a>
+    1) Fine-tuned [BERT-base-uncased](https://huggingface.co/bert-base-uncased) on **UWB-ATCC** data: https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc | <a href="https://huggingface.co/Jzuluaga/bert-base-token-classification-for-atc-en-uwb-atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset%20on%20Hub-yellow"> </a>
 
 
-**UWB-ATCC corpus prepared** in [datasets library](https://github.com/huggingface/datasets) format, on HuggingFace hub: https://huggingface.co/datasets/Jzuluaga/uwb_atcc | <a href="https://huggingface.co/datasets/Jzuluaga/uwb_atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Models%20on%20Hub-yellow"> </a>
+**UWB-ATCC corpus prepared** in [datasets library](https://github.com/huggingface/datasets) format, on HuggingFace hub: https://huggingface.co/datasets/Jzuluaga/uwb_atcc | <a href="https://huggingface.co/datasets/Jzuluaga/uwb_atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset%20on%20Hub-yellow"> </a>
 
 
 **Repository written by**: [Juan Pablo Zuluaga](https://juanpzuluaga.github.io/).

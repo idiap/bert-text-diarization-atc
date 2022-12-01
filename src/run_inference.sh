@@ -50,7 +50,7 @@ fi
 mkdir -p $output_folder/inference
 # running the command
 $cmd python3 src/inference_diarization.py \
-  --input-model "$output_folder/final_checkpoint" \
+  --input-model "$output_folder/" \
   --batch-size $batch_size \
   --input-files "$input_files" --test-names "$test_names" \
   --output-folder $output_folder/inference

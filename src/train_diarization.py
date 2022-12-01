@@ -124,10 +124,10 @@ def parse_args():
     parser.add_argument(
         "--val-data",
         default=None,
-        help="Validation file for the NER model (utt2text_tags)",
+        help="Validation file for the token classification model (utt2text_tags)",
     )
     parser.add_argument(
-        "--test-data", default=None, help="Test file for the NER model (utt2text_tags)"
+        "--test-data", default=None, help="Test file for the token classification model (utt2text_tags)"
     )
 
     parser.add_argument(
@@ -136,7 +136,7 @@ def parse_args():
     )
     parser.add_argument(
         "output_folder",
-        help="name of the output folder to store the NER model and tokenizer",
+        help="name of the output folder to store the token classification model and tokenizer",
     )
     return parser.parse_args()
 

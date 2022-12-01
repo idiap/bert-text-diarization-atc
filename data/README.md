@@ -13,7 +13,9 @@ For the experiments carried out in this paper, you need to download the data fol
 ### ATCO2 test set corpus
 
 - Download (purchase) the full test set (used in the paper): http://catalog.elra.info/en-us/repository/browse/ELRA-S0484/
-- Download a free sample of the test set (only contains 1 hour of data): https://www.atco2.org/data
+- Download a free sample of the test set (only contains 1 hour of data): https://www.atco2.org/data 
+
+**Dataset is in HuggingFace**:https://huggingface.co/datasets/Jzuluaga/atco2 |  <a href="https://huggingface.co/datasets/Jzuluaga/atco2"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset%20on%20Hub-yellow"> </a>
 
 ### UWB-ATCC corpus
 
@@ -21,8 +23,9 @@ The Air Traffic Control Communication corpus, or UWB-ATCC corpus, contains recor
 
 You can download for free in: https://lindat.mff.cuni.cz/repository/xmlui/handle/11858/00-097C-0000-0001-CCA1-0
 
-This item is Publicly Available and licensed under:
-Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0)
+This item is Publicly Available and licensed under: Creative Commons - Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) 
+
+**Dataset is in HuggingFace:** https://huggingface.co/datasets/Jzuluaga/uwb_atcc | <a href="https://huggingface.co/datasets/Jzuluaga/uwb_atcc"><img alt="GitHub" src="https://img.shields.io/badge/%F0%9F%A4%97-Dataset%20on%20Hub-yellow"> </a>
 
 ### LDC-ATCC corpus
 

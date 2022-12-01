@@ -7,15 +7,15 @@
 #
 # SPDX-License-Identifier: MIT-License
 
-"""
-    Script to perform ONLY INFERENCE with a text-based diarization model. 
-    The model is built by fine-tuning a pretrained BERT-base-uncased model* fetched from HuggingFace.
+"""\
+Script to perform ONLY INFERENCE with a text-based diarization model. 
+The model is built by fine-tuning a pretrained BERT-base-uncased model* fetched from HuggingFace.
 
-    - We perform inference to either generate the labels of a sentence or to 
-    
-    * Other models can be used as well, e.g., bert-base-cased
-    BERT paper (ours): https://arxiv.org/abs/1810.04805
-    HuggingFace repository: https://huggingface.co/bert-base-uncased
+- We perform inference to either generate the labels of a sentence or to 
+
+* Other models can be used as well, e.g., bert-base-cased
+BERT paper (ours): https://arxiv.org/abs/1810.04805
+HuggingFace repository: https://huggingface.co/bert-base-uncased
 """
 
 import argparse
@@ -64,9 +64,9 @@ def convert_to_utt2text_tags(predictions):
 
 
 class ATCDataset(torch.utils.data.Dataset):
-    """Dataset for Text-based Diarization of ATC data.
-    We will classify whether each token of the ATC transcript is from
-    Pilot or ATCO.
+    """\
+    Dataset for Text-based Diarization of ATC data. We will classify
+    whether each token of the ATC transcript is from Pilot or ATCO.
     """
 
     def __init__(self, path_to_file):
@@ -135,7 +135,7 @@ def parse_args():
         "-i",
         "--input-files",
         required=True,
-        help="String with paths to text or utt2spk_id files to be evaluated, it needs to match the 'test_names' variales",
+        help="String with paths to text or utt2spk_id files to be evaluated, it needs to match the 'test_names' variables",
     )
     parser.add_argument(
         "-n",
@@ -168,7 +168,7 @@ def main(args):
     # create the output directory, in 'evaluations folder'
     os.makedirs(os.path.dirname(output_folder), exist_ok=True)
 
-    print("\nLoading the sequence classification recognition model (speaker ID)\n")
+    print("\nLoading the sequence classification recognition model (text-based Diarization)\n")
 
     # Fetch the Model and tokenizer
     eval_model = BertForTokenClassification.from_pretrained(token_classification_model)

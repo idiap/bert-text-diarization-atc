@@ -42,8 +42,8 @@ output_dir=experiments/results/baseline
 # data folder, default dataset is uwb_atcc (as it is free access)
 # and no augmentation, i.e., 'diarization' folder
 dataset=uwb_atcc
-train_data=experiments/data/uwb_atcc/train/diarization/utt2text_tags
-test_data=experiments/data/uwb_atcc/test/diarization/utt2text_tags
+train_data=experiments/data/$dataset/train/diarization/utt2text_tags
+test_data=experiments/data/$dataset/test/diarization/utt2text_tags
 
 # empty, pass it in CLI
 validation_data=''
